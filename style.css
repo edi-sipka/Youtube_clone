@@ -1,0 +1,80 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+header {
+  margin: 2.4rem;
+}
+
+.logo {
+  margin-left: 1.2rem;
+  cursor: pointer;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2.8rem;
+}
+.search-input {
+  width: 40rem;
+  height: 3.2rem;
+  font-weight: 400;
+  font-family: Roboto, sans-serif, Arial;
+  font-size: 1.4rem;
+}
+.search-bar {
+  border: 5px solid lightgrey;
+  background-color: lightgrey;
+  height: 3.2rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1.8rem;
+}
+.search-button {
+  height: 1.8rem;
+  width: 1.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.left-side {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-header-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-top: -2.6rem;
+}
+
+.icons {
+  margin-right: 1.6rem;
+  cursor: pointer;
+}
+.sign-in {
+  font-family: Roboto, sans-serif, Arial;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
