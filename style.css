@@ -8,15 +8,29 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
-  overflow-x: hidden;
 }
 
 header {
   margin: 2.4rem;
+  padding-top: 0.5rem;
+}
+h2 {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  line-height: 2.4rem;
+}
+hr {
+  height: 0.1rem;
+  background-color: lightgray;
+  margin-right: 5rem;
+  border: 0;
+  width: 92rem;
+  margin-top: 1rem;
 }
 
 .logo {
@@ -28,7 +42,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -2.8rem;
+  margin-top: -3rem;
 }
 .search-input {
   width: 40rem;
@@ -77,4 +91,49 @@ header {
   font-family: Roboto, sans-serif, Arial;
   font-size: 1.4rem;
   text-decoration: none;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.title {
+  margin-top: 1.8rem;
+}
+
+.views {
+  margin-top: 3.2rem;
+}
+
+.video-text {
+  font-size: 1.8rem;
+  color: rgb(160, 160, 160);
+}
+
+.video-icons {
+  list-style: none;
+  height: 1.8rem;
+  width: 2.4rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: -4.8rem;
+}
+.right-video-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50rem;
+}
+.span-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  font-size: 1.1rem;
+  color: rgb(150, 150, 150);
 }
